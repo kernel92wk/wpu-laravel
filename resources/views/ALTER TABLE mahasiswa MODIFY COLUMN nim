@@ -1,0 +1,11 @@
+ALTER TABLE mahasiswa MODIFY COLUMN nim CHAR(9);
+
+
+CREATE TABLE mahasiswa(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nim VARCHAR(9),
+    nama VARCHAR(250) NOT NULL,
+    email VARCHAR(50),
+    jurusan VARCHAR(250))
+
+INSERT into mahasiswa (nim,nama,email,jurusan) VALUES ('098187282','fuad','fuad@gmail.com','informatika');
