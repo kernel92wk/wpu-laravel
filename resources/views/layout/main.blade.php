@@ -24,12 +24,15 @@
                         <a class="nav-link" href="/about">About</a>
                         <a class="nav-link" href="/mahasiswa">Mahasiswa</a>
                         <a class="nav-link" href="/students">Student</a>
+                        <a href="{{ route('logout') }}" class="nav-link text-danger">Logout</a>
+                        <a href="{{ route('register') }}" class="nav-link text-primary">Daftarkan Teman Anda? sekarang!</a>
+
                         </div>
                     </div>
                 </div>
                 </nav>
                 @yield('container')
-
+                
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
         </body>

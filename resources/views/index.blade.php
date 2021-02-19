@@ -6,8 +6,9 @@
 <div class="container">
     <div class="row">
         <div class="col-10">
-            <h1 class="mt-3">hello world</h1>
+            <h5>Selamat datang di halaman dashboard, <strong>{{ Auth::user()->name }}</strong></h5>
         </div>
+        
     </div>
 </div>
 @endsection
